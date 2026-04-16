@@ -577,6 +577,10 @@
         <h1 class="hero-title">Happy Birthday, Sukeerthi</h1>
         <p class="hero-sub">A Cinematic Journey Created Just For You</p>
         <button class="btn-neon" onclick="transitionTo('message-slider-page')">Open Your Gift</button>
+        <audio id="birthday-audio" loop preload="auto" style="display:none;">
+            <source src="assets/audio/sreya.mp4" type="audio/mp4">
+            <source src="assets/audio/nastelbom-happy-birthday-471481.mp3" type="audio/mpeg">
+        </audio>
     </section>
 
     <!-- MESSAGE SLIDER SECTION -->
@@ -707,10 +711,6 @@ Hope this year brings you as much magic as you give everyone else!
         </div>
     </section>
 
-    <audio id="birthday-audio" loop preload="auto">
-        <source src="assets/audio/nastelbom-happy-birthday-471481.mp3" type="audio/mpeg">
-    </audio>
-    
     <div id="audio-control" style="position: fixed; bottom: 30px; right: 30px; z-index: 999;">
         <button class="btn-neon" onclick="toggleAudio()" style="padding: 12px 20px; font-size: 0.9rem;" title="Manual audio control">🔊 Music</button>
     </div>
